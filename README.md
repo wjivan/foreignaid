@@ -13,7 +13,6 @@ These aid flow into recipient countries to support local efforts for renewable e
 *Table 2: Summary of recipient counts and top 5 recipient countries 2009-2018*
 <figure> 
     <img class="responsive-img" src="Output/recipient_table.png">
-    <figcaption>/figcaption>
 </figure>
 
 # Network analysis
@@ -24,7 +23,6 @@ We represent each country (donor or recipient) as a node in the network. The aid
 *Figure 1: Illustrative network for top 5 donors in 2018*
 <figure> 
     <img class="responsive-img" src="Output/top5_network.png">
-    <figcaption></figcaption>
 </figure>
 
 We can see from the aid flow network that there are some recipients who are solely dependent on one donor whereas others are dependent on several donors. The colours of the network show the principal donor for each recipient – i.e. the donor providing the highest share of aid for that recipient. 
@@ -34,7 +32,6 @@ One way of measuring the power dynamics between donor and recipients is through 
 *Figure 2 Top 5 recipient's aid network in 2018*
 <figure> 
     <img class="responsive-img" src="Output/significant_recipients.png">
-    <figcaption></figcaption>
 </figure>
 
 Figure 2 shows that, for example, Morocco receives aid from France, Spain and Germany. To proxy the power relationship between the donors to the recipient, we calculate which donor country provides the highest share of aid to Morocco. 
