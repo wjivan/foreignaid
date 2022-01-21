@@ -1,4 +1,4 @@
-###### Dataset and descriptive statistics
+# Dataset and descriptive statistics
 The OECD dataset contains information on donor commitments for ten years spanning 2009-2018 (inclusive). This allows us to understand how donor behaviour changes over time. 
 
 <figure> 
@@ -15,7 +15,7 @@ These aid flow into recipient countries to support local efforts for renewable e
     <figcaption>Table 2: Summary of recipient counts and top 5 recipient countries 2009-2018</figcaption>
 </figure>
 
-###### Network analysis
+# Network analysis
 One of the hypotheses of this paper is that aid flows can be politically motivated. Network analysis of aid flows can be used to quantify the proportionate size of impact a donor can have on recipients in the aid flow network. 
 
 We represent each country (donor or recipient) as a node in the network. The aid flow from the donor to recipient represent edges in the network, creating links from one node to the other. To illustrate this, we take the top 5 donors in 2018 and their aid flows to form the aid flow network shown in Figure 1.
@@ -36,12 +36,7 @@ One way of measuring the power dynamics between donor and recipients is through 
 
 Figure 2 shows that, for example, Morocco receives aid from France, Spain and Germany. To proxy the power relationship between the donors to the recipient, we calculate which donor country provides the highest share of aid to Morocco. 
 
-More formally, for each triadic donor-recipient-year pair, we calculate the weighted share in-degree centrality in the network, given by the formula below. 
-<img src="https://render.githubusercontent.com/render/math?math=c_{ijt} = \frac{a_{ijt}}{(\sum\limits_{i}^n a_{ijt})}>
-
-The centrality measure $c_{ijt}$ , for a given donor ($i$) providing aid to a recipient ($j$) in year ($t$), is the share of aid ($a$) given by that specific donor to the recipient in the year over the sum of all aids given to the recipient in the year by $n$ donors. Using this approach, we can quantify and identify which recipient countries receives significant aid from donor countries.  
-
-To illustrate this result, Figure 3 shows a summary of recipient countries grouped by their top donor country. We see that Germany is the top donor to the greatest number of countries. This is a useful proxy of Germany’s power in the recipients network because, should Germany decide to remove their aid, it would cause a significant impact on the recipient’s budget in renewable energy. 
+To illustrate this, Figure 3 shows a summary of recipient countries grouped by their top donor country. We see that Germany is the top donor to the greatest number of countries. This is a useful proxy of Germany’s power in the recipients network because, should Germany decide to remove their aid, it would cause a significant impact on the recipient’s budget in renewable energy. 
 
 <figure> 
     <img class="responsive-img" src="/static/pictures/foreignaid/recipients_group.png">
