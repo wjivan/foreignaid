@@ -43,7 +43,7 @@ To illustrate this, Figure 3 shows a summary of recipient countries grouped by t
 
 *Figure 3 Summary of recipient countries grouped by top donor country in 2018*
 <figure> 
-    <img class="responsive-img" src="/static/pictures/foreignaid/recipients_group.png">
+    <img class="responsive-img" src="Output/recipients_group.png">
 </figure>
 
 Using this metric in our panel regression, we hope to test the hypothesis whether donor countries would provide higher aid if they are in a position of power in a recipient’s aid network. 
