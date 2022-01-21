@@ -11,7 +11,7 @@ Table 1 shows that on average, the number of donors has increased slightly over 
 These aid flow into recipient countries to support local efforts for renewable energy projects. Table 2 shows that aid is distributed to around 96-115 countries over the decade. Unlike the donor countries which are rather stable, the top five recipients change considerably from year to year. 
 
 <figure> 
-    <img class="responsive-img" src="/static/pictures/foreignaid/recipient_table.png">
+    <img class="responsive-img" src="Output/recipient_table.png">
     <figcaption>Table 2: Summary of recipient counts and top 5 recipient countries 2009-2018</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ One of the hypotheses of this paper is that aid flows can be politically motivat
 We represent each country (donor or recipient) as a node in the network. The aid flow from the donor to recipient represent edges in the network, creating links from one node to the other. To illustrate this, we take the top 5 donors in 2018 and their aid flows to form the aid flow network shown in Figure 1.
 
 <figure> 
-    <img class="responsive-img" src="/static/pictures/foreignaid/top5_network.png">
+    <img class="responsive-img" src="Output/top5_network.png">
     <figcaption>Figure 1: Illustrative network for top 5 donors in 2018</figcaption>
 </figure>
 
@@ -30,14 +30,14 @@ We can see from the aid flow network that there are some recipients who are sole
 One way of measuring the power dynamics between donor and recipients is through the share of donation a donor country provides to the recipient. Visually, if we isolate the top recipients of aid in 2018, we could see that each of these recipients receives aid from a diverse set of donors. 
 
 <figure> 
-    <img class="responsive-img" src="/static/pictures/foreignaid/significant_recipients.png">
+    <img class="responsive-img" src="Output/significant_recipients.png">
     <figcaption>Figure 2 Top 5 recipient's aid network in 2018</figcaption>
 </figure>
 
 Figure 2 shows that, for example, Morocco receives aid from France, Spain and Germany. To proxy the power relationship between the donors to the recipient, we calculate which donor country provides the highest share of aid to Morocco. 
 
 More formally, for each triadic donor-recipient-year pair, we calculate the weighted share in-degree centrality in the network, given by the formula below. 
-$$c_{ijt} = \frac{a_{ijt}}{(\sum\limits_{i}^n a_{ijt})}$$
+<img src="https://render.githubusercontent.com/render/math?math=c_{ijt} = \frac{a_{ijt}}{(\sum\limits_{i}^n a_{ijt})}>
 
 The centrality measure $c_{ijt}$ , for a given donor ($i$) providing aid to a recipient ($j$) in year ($t$), is the share of aid ($a$) given by that specific donor to the recipient in the year over the sum of all aids given to the recipient in the year by $n$ donors. Using this approach, we can quantify and identify which recipient countries receives significant aid from donor countries.  
 
